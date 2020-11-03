@@ -1,0 +1,90 @@
+.border-bottom {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Open Sans"
+}
+
+/* ho impostato la grafica del body */
+.container {
+  background-image: url("wood.jpg");
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* ho impostato l'immagine al centro  */
+#image-center {
+  vertical-align : middle;
+}
+
+/* ho cerchiato il numero 30 */
+#circle {
+  vertical-align : middle;
+  font-size: 50px;
+  background: #ff8c00;
+  border-radius: 50%;
+  padding: 3px
+}
+
+/* ho personalizzato il contenitore principale del corpo mail */
+.row {
+  margin-top: 6px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 6px;
+}
+
+/* ho impostato la grafica con sfondo grigio */
+.row-style {
+  background: #808080;
+  border: 1px solid #000
+}
+
+/* ho impostato la grafica con sfondo bianco */
+.row-style-white {
+  background: #fff;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+/* ho impostato la grafica con sfondo grigio e margine per l'ultima riga del corpo mail */
+.row-style-bottom {
+  background: #808080;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 6px;
+}
+
+/* ho impostato il colore bianco per le scritte che mi interessavano */
+.white-font {
+  color: #fff;
+}
+
+/* ho impostato font scritta principale */
+.white {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* ho impostato il font dell'oggetto mail */
+.oggetto-mail {
+  color: #000;
+  font-weight: bold;
+}
+
+/* ho impostato colore testo mail */
+.testo-mail {
+  color: #ccc;
+}
+
+/* ho impostato grafica footer */
+footer {
+  text-align: center;
+  color: #fff;
+  padding-top: 20px
+}
+
+/* ho impostato grandezza parola GMail */
+#footer {
+  font-size: 25px
+}
